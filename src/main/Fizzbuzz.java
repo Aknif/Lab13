@@ -8,7 +8,10 @@ public class Fizzbuzz {
 	public String anotherFizzBuzz(int i) {
 		String s = "";
 			
-			if(i>100){
+             if(i<1){
+                s="Input number less than 100";
+            }
+            else if(i>100){
                 s="Input number more than 100";
             }
             else if (i%5 ==0 && i%3!=0) {
