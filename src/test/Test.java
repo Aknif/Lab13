@@ -47,7 +47,7 @@ class test {
     }
 	
 	@Test
-    @DisplayName("TC05 - input = 101, expected result = Input numer more than 100")
+    @DisplayName("TC05 - input = 101, expected result = Input number more than 100")
     void TC05() {
         String testfb = fb.anotherFizzBuzz(101);
         assertEquals("Input numer more than 100", testfb);   
