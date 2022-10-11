@@ -52,4 +52,11 @@ class test {
         String testfb = fb.anotherFizzBuzz(101);
         assertEquals("Input number more than 100", testfb);   
     }
+	
+	@Test
+    @DisplayName("TC06 - input = 0, expected result = Input number less than 1")
+    void TC06() {
+        String testfb = fb.anotherFizzBuzz(0);
+        assertEquals("Input number less than 1", testfb);   
+    }
 }
