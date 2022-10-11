@@ -39,4 +39,10 @@ class test {
         assertEquals("Buzz", testfb);   
     }
 	
+	@Test
+    @DisplayName("TC04 - input = 15, expected result = FizzBuzz")
+    void TC04() {
+        String testfb = fb.anotherFizzBuzz(15);
+        assertEquals("Buzz", testfb);   
+    }
 }
