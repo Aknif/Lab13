@@ -11,7 +11,12 @@ public class Fizzbuzz {
 	        if (i%3 == 0) {
 				s = Integer.toString(i);
 				s = "Fizz";
-			}else {
+			}
+            else if(i%5 ==0){
+				s = Integer.toString(i);
+				s = "Buzz";
+			}
+            else {
 				s = Integer.toString(i);
 			}
 			return s;	
