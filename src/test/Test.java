@@ -32,4 +32,11 @@ class test {
         assertEquals("1", testfb);   
     }
 	
+	@Test
+    @DisplayName("TC03 - input = 5, expected result = Buzz")
+    void TC03() {
+        String testfb = fb.anotherFizzBuzz(5);
+        assertEquals("Buzz", testfb);   
+    }
+	
 }
